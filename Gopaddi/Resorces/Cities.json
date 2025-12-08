@@ -1,0 +1,125 @@
+
+
+
+    [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "iso2": "JP",
+    "flag_svg": "https://flagcdn.com/w320/jp.png"
+  },
+  {
+    "city": "New York",
+    "country": "United States",
+    "iso2": "US",
+    "flag_svg": "https://flagcdn.com/w320/us.png"
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "iso2": "GB",
+    "flag_svg": "https://flagcdn.com/w320/gb.png"
+  },
+  {
+    "city": "Paris",
+    "country": "France",
+    "iso2": "FR",
+    "flag_svg": "https://flagcdn.com/w320/fr.png"
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "iso2": "DE",
+    "flag_svg": "https://flagcdn.com/w320/de.png"
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "iso2": "AU",
+    "flag_svg": "https://flagcdn.com/w320/au.png"
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "iso2": "CA",
+    "flag_svg": "https://flagcdn.com/w320/ca.png"
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "iso2": "SG",
+    "flag_svg": "https://flagcdn.com/w320/sg.png"
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "iso2": "AE",
+    "flag_svg": "https://flagcdn.com/w320/ae.png"
+  },
+  {
+    "city": "Mumbai",
+    "country": "India",
+    "iso2": "IN",
+    "flag_svg": "https://flagcdn.com/w320/in.png"
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "iso2": "ES",
+    "flag_svg": "https://flagcdn.com/w320/es.png"
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "iso2": "IT",
+    "flag_svg": "https://flagcdn.com/w320/it.png"
+  },
+  {
+    "city": "São Paulo",
+    "country": "Brazil",
+    "iso2": "BR",
+    "flag_svg": "https://flagcdn.com/w320/br.png"
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "iso2": "ZA",
+    "flag_svg": "https://flagcdn.com/w320/za.png"
+  },
+  {
+    "city": "Seoul",
+    "country": "South Korea",
+    "iso2": "KR",
+    "flag_svg": "https://flagcdn.com/w320/kr.png"
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "iso2": "TH",
+    "flag_svg": "https://flagcdn.com/w320/th.png"
+  },
+  {
+    "city": "Istanbul",
+    "country": "Türkiye",
+    "iso2": "TR",
+    "flag_svg": "https://flagcdn.com/w320/tr.png"
+  },
+  {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "iso2": "MX",
+    "flag_svg": "https://flagcdn.com/w320/mx.png"
+  },
+  {
+    "city": "Moscow",
+    "country": "Russia",
+    "iso2": "RU",
+    "flag_svg": "https://flagcdn.com/w320/ru.png"
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "iso2": "NL",
+    "flag_svg": "https://flagcdn.com/w320/nl.png"
+  }
+] 
