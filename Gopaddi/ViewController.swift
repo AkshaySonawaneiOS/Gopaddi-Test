@@ -37,7 +37,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Can load the planned trips by calling api with ViewModel
-        
+        if plannedTrips.isEmpty {
+            tblPlannedTrips.isHidden = true
+        } else {
+            tblPlannedTrips.isHidden = false
+        }
         self.tblPlannedTrips.delegate = self
         self.tblPlannedTrips.dataSource = self
         self.setupLeftNavTitle(title: "Plan a Trip", isbackButton: true)
@@ -131,14 +135,30 @@ extension ViewController : ViewControllerProtocol {
     }
     
     func showCreateTripVC(city: City, startDate: Date, endDate: Date, tripName: String, tripDescription: String, travelStyle: String) {
+        
         let vc = storyboard?.instantiateViewController(identifier: "CreateTripViewController") as! CreateTripViewController
+            print("VC TYPE: \(type(of: vc))")  // What does this print?
+            print("lblTripName: \(vc.lblTripName != nil)")
+        
+//        guard let storyboard = storyboard,
+//                  let vc = storyboard.instantiateViewController(identifier: "CreateTripViewController") as? CreateTripViewController else {
+//                print("❌ Cannot instantiate CreateTripViewController")
+//                return
+//            }
         let formatter = DateFormatter()
         formatter.dateFormat = "d MMMM yyyy"
         
-        vc.lblTripName.text = tripName
-        vc.lblStartDate.text = formatter.string(from: selectedStartDate ?? startDate)
-        vc.lblEndDate.text = formatter.string(from: selectedEndDate ?? endDate)
-        vc.lblCityCountryStyle.text = self.viewModel.giveDestinationDetails(city: city, style: travelStyle)
+        
+        Mirror(reflecting: vc).children.forEach { child in
+                if let label = child.value as? UILabel {
+                    print("FOUND LABEL: \(child.label ?? "unknown") = \(label)")
+                }
+            }
+        
+        vc.lblTripName?.text = tripName
+        vc.lblStartDate?.text = formatter.string(from: selectedStartDate ?? startDate)
+        vc.lblEndDate?.text = formatter.string(from: selectedEndDate ?? endDate)
+        vc.lblCityCountryStyle?.text = self.viewModel.giveDestinationDetails(city: city, style: travelStyle)
         vc.destination = city
         
         navigationController?.pushViewController(vc, animated: true)

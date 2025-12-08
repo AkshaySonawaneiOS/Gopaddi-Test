@@ -53,16 +53,16 @@ class CreateTripViewController: UIViewController {
         self.viwFlightDetails.isHidden = false
     }
     @IBAction func btnRemoveFlight(_ sender: Any) {
-        self.viwFlightsNoData.isHidden = true
-        self.viwFlightDetails.isHidden = false
+        self.viwFlightsNoData.isHidden = false
+        self.viwFlightDetails.isHidden = true
     }
     @IBAction func btnRemoveHotel(_ sender: Any) {
-        self.viwHotelNoData.isHidden = true
-        self.viwHotelDetails.isHidden = false
+        self.viwHotelNoData.isHidden = false
+        self.viwHotelDetails.isHidden = true
     }
     @IBAction func btnRemoveActivity(_ sender: Any) {
-        self.viwActivityNoData.isHidden = true
-        self.viwActivityDetails.isHidden = false
+        self.viwActivityNoData.isHidden = false
+        self.viwActivityDetails.isHidden = true
     }
     @IBAction func btnCreateTripClicked(_ sender: Any) {
         
