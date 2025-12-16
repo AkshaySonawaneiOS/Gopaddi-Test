@@ -18,7 +18,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C35131582EE4262500D34535 /* Exceptions for "Gopaddi" folder in "Gopaddi" target */ = {
+		C3BF80092EF1A2D6000F0B11 /* Exceptions for "Gopaddi" folder in "Gopaddi" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -31,7 +31,7 @@
 		C35131482EE4262300D34535 /* Gopaddi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C35131582EE4262500D34535 /* Exceptions for "Gopaddi" folder in "Gopaddi" target */,
+				C3BF80092EF1A2D6000F0B11 /* Exceptions for "Gopaddi" folder in "Gopaddi" target */,
 			);
 			path = Gopaddi;
 			sourceTree = "<group>";
@@ -130,6 +130,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"Base 2",
+				"base 2",
 			);
 			mainGroup = C351313D2EE4262300D34535;
 			minimizedProjectReferenceProxies = 1;

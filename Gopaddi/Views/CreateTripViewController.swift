@@ -30,12 +30,17 @@ class CreateTripViewController: UIViewController {
     var destination: City?
     var tripStyle: String?
     var tripDesc: String?
+    var tripName: String = ""
+    var tripStartDate: String = ""
+    var tripEnddate: String = ""
+    var tripCityCountryStyle: String = ""
     
     
     // MARK: - Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupLeftNavTitle(title: "Plan a Trip", isbackButton: true)
+        self.addData()
         // Do any additional setup after loading the view.
     }
     
@@ -70,5 +75,13 @@ class CreateTripViewController: UIViewController {
         
         delegate?.createTrip(trip: Trip(city: destination!, tripName: lblTripName.text ?? "", tripStyle: tripStyle ?? "", tripDesc: tripDesc ?? "", hotelDetails: lblHotelDetail.text ?? "", flightDetails: lblFlightDetails.text ?? "", activityDetails: lblActivityDetail.text ?? "",start: lblStartDate.text ?? "", end: lblEndDate.text ?? ""))
         dismiss(animated: true)
+    }
+    
+    
+    func addData() {
+        lblTripName?.text = tripName
+        lblStartDate?.text = tripStartDate
+        lblEndDate?.text = tripEnddate
+        lblCityCountryStyle?.text = tripCityCountryStyle
     }
 }

@@ -754,6 +754,11 @@
                                                             <constraint firstItem="btX-JR-i09" firstAttribute="trailing" secondItem="9w9-Ec-69i" secondAttribute="trailing" id="mij-BC-WaY"/>
                                                             <constraint firstItem="xUM-GK-Ocq" firstAttribute="top" secondItem="btX-JR-i09" secondAttribute="bottom" constant="37" id="o1i-Nj-Dj2"/>
                                                         </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="4"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" id="RFA-A5-rpp" userLabel="Add Hotels View">
                                                         <rect key="frame" x="0.0" y="368" width="361" height="176"/>
@@ -1537,6 +1542,11 @@
                                                     <constraint firstItem="f4s-q4-Hnd" firstAttribute="leading" secondItem="cdu-uE-UP1" secondAttribute="leading" constant="16" id="t4O-sB-Rot"/>
                                                     <constraint firstItem="iHH-LV-P2i" firstAttribute="leading" secondItem="kq1-aE-4hf" secondAttribute="trailing" constant="10" id="tnp-ZW-Oqz"/>
                                                 </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ben-ad-nrq" userLabel="Actiities Details View">
                                                 <rect key="frame" x="16" y="1884" width="361" height="368"/>
@@ -1884,6 +1894,11 @@
                                                     <constraint firstAttribute="bottom" secondItem="VzF-VZ-lEK" secondAttribute="bottom" constant="16" id="r1n-7a-NfJ"/>
                                                     <constraint firstItem="Yu0-Ll-UEG" firstAttribute="top" secondItem="Ben-ad-nrq" secondAttribute="top" constant="16" id="uaF-jW-H1T"/>
                                                 </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28w-9N-5JI">
                                                 <rect key="frame" x="16" y="2268" width="361" height="48"/>
